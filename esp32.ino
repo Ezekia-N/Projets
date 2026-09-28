@@ -13,20 +13,20 @@ const char* ESP32_ID = "ESP32_A";
 
 // Utilisateur associé
 // L'application pourra modifier cet identifiant plus tard.
-String USER_ID = "";
+String USER_ID = "ESP32_A";
 
 // ======================================================
 // WIFI - RESEAU RASPBERRY PI
 // ======================================================
 
-const char* GATEWAY_SSID = "Connecteo-Gateway";
-const char* GATEWAY_PASSWORD = "CHANGE_ME_GATEWAY";
+const char* GATEWAY_SSID = "Passerelle_Lora";
+const char* GATEWAY_PASSWORD = "********";
 
 // ======================================================
 // WIFI - POINT D'ACCES TELEPHONE
 // ======================================================
 
-const char* AP_PASSWORD = "Connecteo123";
+const char* AP_PASSWORD = "ESP32_A";
 
 // Chaque ESP32 possède son propre réseau.
 // Le téléphone trouvera :
